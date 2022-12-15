@@ -225,6 +225,7 @@ export const bookingsRouter = router({
             },
           },
           rescheduled: true,
+          references: true,
         },
         orderBy,
         take: take + 1,
